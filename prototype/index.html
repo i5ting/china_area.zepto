@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Select3 Demo Use Cases</title>
+        <meta charset="utf-8">
+        <script src="http://cdn.bootcss.com/zepto/1.1.6/zepto.min.js"></script>   
+        <script type="text/javascript" src="data.js"></script>  
+        
+        <script type="text/javascript" src="location.js"></script>
+        <script src="select3.js"></script>
+        <link href="select2.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="china-area">
+            <select style="width:100%;"></select>
+            <select style="width:100%;"></select>
+            <select style="width:100%;"></select>
+        </div>
+        <br><br><br><br>
+        <input type="button" id="btntext" value="获取文本" />
+
+        <script type="text/javascript">
+            $(function () {
+                var x = $('.china-area').zepto_china_area();
+                $('#btntext').click(function () {
+                    alert(x.getAreaValue());
+                })
+            })
+        </script>
+    </body>
+</html>
