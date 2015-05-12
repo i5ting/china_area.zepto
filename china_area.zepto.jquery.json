@@ -1,0 +1,26 @@
+{
+  "name": "china_area.zepto",
+  "title": "China Area Zepto",
+  "description": "The best jQuery plugin ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/sang/china_area.zepto",
+  "author": {
+    "name": "alfred sang",
+    "email": "i5ting@126.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sang/china_area.zepto.git"
+  },
+  "bugs": "https://github.com/sang/china_area.zepto/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/sang/china_area.zepto/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": []
+}
